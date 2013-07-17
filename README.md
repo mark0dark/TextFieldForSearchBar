@@ -6,7 +6,8 @@ four kinds of SearchBar
 
 1.What is it
 =====================
-A。there is four kins of SearchBar achieve function
+A.there is four kins of SearchBar achieve function
+
 SearchBar_Type:
   a.ios systematic searchBar
   b.define self subViews for searchBar
