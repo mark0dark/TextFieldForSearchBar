@@ -8,13 +8,15 @@ four kinds of SearchBar
 =====================
 A.there is four kins of SearchBar achieve function
 
-SearchBar_Type:
-  a.ios systematic searchBar
-  b.define self subViews for searchBar
-  c.use TextField to achieve Searchbar function
-  d.overload TextField method
-  
-  you can change the SearchBar UI, and associate input
+      a.ios systematic searchBar
+      b.define self subViews for searchBar
+      c.use TextField to achieve Searchbar function
+      d.overload TextField method
+
+
+
+
+you can change the SearchBar UI, and associate input
   
 B.i will add the voice search function
 
