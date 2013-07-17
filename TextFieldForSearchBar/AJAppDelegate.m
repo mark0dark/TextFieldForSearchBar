@@ -1,13 +1,5 @@
-//
-//  AJAppDelegate.m
-//  TextFieldForSearchBar
-//
-//  Created by Jianwen on 13-7-17.
-//  Copyright (c) 2013年 Dark. All rights reserved.
-//
 
 #import "AJAppDelegate.h"
-
 #import "AJViewController.h"
 
 @implementation AJAppDelegate
@@ -15,10 +7,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[AJViewController alloc] initWithNibName:@"AJViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    // Override point for customization after application launch.    
+    self.viewController = [[AJViewController alloc] init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

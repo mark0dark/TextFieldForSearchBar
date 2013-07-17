@@ -17,7 +17,10 @@
 		A4F98326179680D7001A5065 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F98325179680D7001A5065 /* Default@2x.png */; };
 		A4F98328179680D8001A5065 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F98327179680D7001A5065 /* Default-568h@2x.png */; };
 		A4F9832B179680D8001A5065 /* AJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F9832A179680D8001A5065 /* AJViewController.m */; };
-		A4F9832E179680D8001A5065 /* AJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F9832C179680D8001A5065 /* AJViewController.xib */; };
+		A4F9833917969599001A5065 /* AJTextFieldSearchBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F9833817969599001A5065 /* AJTextFieldSearchBarVC.m */; };
+		A4F9833E17969F8C001A5065 /* search_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F9833B17969F8C001A5065 /* search_home@2x.png */; };
+		A4F9833F17969F8C001A5065 /* voice_button_common@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F9833C17969F8C001A5065 /* voice_button_common@2x.png */; };
+		A4F9834017969F8C001A5065 /* voice_button_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F9833D17969F8C001A5065 /* voice_button_pressed@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +39,11 @@
 		A4F98327179680D7001A5065 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A4F98329179680D8001A5065 /* AJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJViewController.h; sourceTree = "<group>"; };
 		A4F9832A179680D8001A5065 /* AJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJViewController.m; sourceTree = "<group>"; };
-		A4F9832D179680D8001A5065 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AJViewController.xib; sourceTree = "<group>"; };
+		A4F9833717969599001A5065 /* AJTextFieldSearchBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJTextFieldSearchBarVC.h; sourceTree = "<group>"; };
+		A4F9833817969599001A5065 /* AJTextFieldSearchBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJTextFieldSearchBarVC.m; sourceTree = "<group>"; };
+		A4F9833B17969F8C001A5065 /* search_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_home@2x.png"; sourceTree = "<group>"; };
+		A4F9833C17969F8C001A5065 /* voice_button_common@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_button_common@2x.png"; sourceTree = "<group>"; };
+		A4F9833D17969F8C001A5065 /* voice_button_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_button_pressed@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +90,12 @@
 		A4F98317179680D7001A5065 /* TextFieldForSearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				A4F983351796954B001A5065 /* FunctionClass */,
 				A4F98320179680D7001A5065 /* AJAppDelegate.h */,
 				A4F98321179680D7001A5065 /* AJAppDelegate.m */,
 				A4F98329179680D8001A5065 /* AJViewController.h */,
 				A4F9832A179680D8001A5065 /* AJViewController.m */,
-				A4F9832C179680D8001A5065 /* AJViewController.xib */,
+				A4F983361796954B001A5065 /* Resoures */,
 				A4F98318179680D7001A5065 /* Supporting Files */,
 			);
 			path = TextFieldForSearchBar;
@@ -105,6 +113,25 @@
 				A4F98327179680D7001A5065 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4F983351796954B001A5065 /* FunctionClass */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9833717969599001A5065 /* AJTextFieldSearchBarVC.h */,
+				A4F9833817969599001A5065 /* AJTextFieldSearchBarVC.m */,
+			);
+			path = FunctionClass;
+			sourceTree = "<group>";
+		};
+		A4F983361796954B001A5065 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9833B17969F8C001A5065 /* search_home@2x.png */,
+				A4F9833C17969F8C001A5065 /* voice_button_common@2x.png */,
+				A4F9833D17969F8C001A5065 /* voice_button_pressed@2x.png */,
+			);
+			path = Resoures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +190,9 @@
 				A4F98324179680D7001A5065 /* Default.png in Resources */,
 				A4F98326179680D7001A5065 /* Default@2x.png in Resources */,
 				A4F98328179680D8001A5065 /* Default-568h@2x.png in Resources */,
-				A4F9832E179680D8001A5065 /* AJViewController.xib in Resources */,
+				A4F9833E17969F8C001A5065 /* search_home@2x.png in Resources */,
+				A4F9833F17969F8C001A5065 /* voice_button_common@2x.png in Resources */,
+				A4F9834017969F8C001A5065 /* voice_button_pressed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +206,7 @@
 				A4F9831E179680D7001A5065 /* main.m in Sources */,
 				A4F98322179680D7001A5065 /* AJAppDelegate.m in Sources */,
 				A4F9832B179680D8001A5065 /* AJViewController.m in Sources */,
+				A4F9833917969599001A5065 /* AJTextFieldSearchBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +219,6 @@
 				A4F9831B179680D7001A5065 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A4F9832C179680D8001A5065 /* AJViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4F9832D179680D8001A5065 /* en */,
-			);
-			name = AJViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

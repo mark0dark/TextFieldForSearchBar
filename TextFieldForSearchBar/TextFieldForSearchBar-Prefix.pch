@@ -12,3 +12,10 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+typedef enum{
+    SearchBar_Systematic = 0,       //systematic
+    SearchBar_DIY,                  //use searchBar to DIY
+    TextField_SearchBar_Systematic, //use textField to be a searchBar
+    TextField_SearchBar_DIY         //use textField to be a searchBar by DIY
+}SearchBar_Type;

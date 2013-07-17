@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface AJViewController : UIViewController
+<UITableViewDelegate, UITableViewDataSource>
+{
+ 
+
+}
 
 @end
